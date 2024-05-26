@@ -1,10 +1,13 @@
 # Micro serviço Payment
 
 ## Requisitos:
-VS Code
+
 Docker
+
 Node
+
 TypeScript
+
 NestJS
 
 ## Instruções para execução do projeto
@@ -31,4 +34,5 @@ Inicie o RabbitMQ com o seguinte comando:
 ```docker-compose -f docker/docker-rabbit.yml up```
 
 Inicie o micro serviço com:
+
 ```npm run start:dev```
