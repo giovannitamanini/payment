@@ -26,7 +26,7 @@ export class CreditCardService {
   async processPayment(payment: CreditCard) {
     setTimeout(
       () => this.sendConfirmationPaymentNotification(JSON.stringify(payment)),
-      10000,
+      3000,
     );
   }
 
